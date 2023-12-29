@@ -1,0 +1,52 @@
+/* font */
+@font-face {
+  font-family: "Pretendard";
+  src: url(../public/fonts/PretendardVariable.woff2);
+}
+@font-face {
+  font-family: "REM";
+  src: url(../public/fonts/REM-Thin.woff);
+  font-style: thin;
+  font-weight: 100;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url(../public/fonts/REM-Light.woff);
+  font-style: light;
+  font-weight: 200;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url(../public/fonts/REM-Regular.woff);
+  font-style: medium;
+  font-weight: 300;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url(../public/fonts/REM-Medium.woff);
+  font-style: medium;
+  font-weight: 400;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url(../public/fonts/REM-Bold.woff);
+  font-style: bold;
+  font-weight: 500;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url(../public/fonts/REM-ExtraBold.woff);
+  font-style: bold;
+  font-weight: 600;
+  font-size: swap;
+}
