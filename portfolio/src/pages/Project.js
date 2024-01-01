@@ -1,9 +1,11 @@
-import React from "react";
+import "../assets/style/project.scss";
 
 const Project = () => {
   return (
-    <div>
-      <h2>project</h2>
+    <div className="proj-contn">
+      <h2>
+        <em>+</em> project
+      </h2>
 
       <section>
         <div>

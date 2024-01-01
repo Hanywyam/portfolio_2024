@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import "./assets/style/style.scss";
 import { Reset } from "styled-reset";
 import Header from "./pages/Header";
 import About from "./pages/About";
