@@ -1,4 +1,4 @@
-import React from "react";
+import "../assets/style/header.scss";
 
 const Header = () => {
   return (

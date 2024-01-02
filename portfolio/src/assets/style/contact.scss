@@ -1,0 +1,112 @@
+// contact.scss
+@media all and (min-width: 1200px) {
+  .contact-contn {
+    .contact-url {
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .contact-wrap {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      align-items: start;
+      .contact-intro {
+        width: 100%;
+        height: 90%;
+        padding: 0 15px;
+        border-right: 1px solid #222;
+      }
+      .contact-info {
+        width: calc(100% - 30px);
+        padding: 0 15px;
+        margin-top: 15%;
+      }
+    }
+  }
+}
+.contact-contn {
+  margin-top: 30px;
+  position: relative;
+  h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 500;
+    text-align: center;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+  }
+  .top-btn {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    background-color: #222;
+    position: absolute;
+    right: 0;
+    span {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      ::after {
+        content: "";
+        width: 2px;
+        height: 26px;
+        background-color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      ::before {
+        content: "";
+        background-color: #fff;
+        width: 2px;
+        height: 15px;
+      }
+    }
+  }
+  .contact-intro {
+    margin: 100px 0 30px;
+    line-height: 1.7;
+  }
+  .contact-info {
+    ul {
+      width: 100%;
+      li {
+        padding: 35px 0;
+        border-top: 1px solid #222;
+      }
+    }
+  }
+  .contact-url {
+    border-bottom: 1px solid #222;
+    margin: 30px 0;
+    width: 100%;
+    height: 315px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    li {
+      text-transform: capitalize;
+      padding: 15px;
+      border-top: 1px solid #222;
+    }
+    :nth-child(3) {
+      grid-row: 1 / 2;
+      position: relative;
+      background-color: #222;
+      color: #fff;
+      em {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 15px;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+        border-radius: 100%;
+        border: 1px solid #fff;
+        display: grid;
+        place-items: center;
+        text-align: center;
+      }
+    }
+  }
+}

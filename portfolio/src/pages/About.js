@@ -1,15 +1,23 @@
-import React from "react";
+import "../assets/style/about.scss";
 
 const About = () => {
   return (
-    <div>
+    <div className="about-contn">
       <h2>안녕하세요.</h2>
       <h2>
-        멈추지 않고 꾸준히 성장하는 <br />
+        <em>
+          멈추지 않고
+          <br />
+          꾸준히 성장하는
+          <br />
+        </em>
         한재영입니다.
       </h2>
-      <div className="borderTop"></div>
-      <ul>
+      <div className="border-top">
+        <span></span>
+        <span></span>
+      </div>
+      <ul className="whoiam-contn">
         <li>WHO I AM</li>
         <li>WHO I AM</li>
         <li>WHO I AM</li>

@@ -1,13 +1,90 @@
+/* font */
+/*
+Copyright (c) 2021 Kil Hyung-jin, with Reserved Font Name Pretendard.
+https://github.com/orioncactus/pretendard
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+http://scripts.sil.org/OFL
+*/
+
+@font-face {
+  font-family: "Pretendard";
+  font-weight: 45 920;
+  font-style: normal;
+  font-display: swap;
+  src: local("Pretendard Variable"),
+    url("../public/fonts/PretendardVariable.woff2") format("woff2-variations");
+}
+
+@font-face {
+  font-family: "REM";
+  src: url("../public/fonts/REM-Thin.woff");
+  font-style: thin;
+  font-weight: 100;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url("../public/fonts/REM-Light.woff");
+  font-style: light;
+  font-weight: 200;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url("../public/fonts/REM-Regular.woff");
+  font-style: medium;
+  font-weight: 300;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url("../public/fonts/REM-Medium.woff");
+  font-style: medium;
+  font-weight: 400;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url("../public/fonts/REM-Bold.woff");
+  font-style: bold;
+  font-weight: 500;
+  font-size: swap;
+}
+
+@font-face {
+  font-family: "REM";
+  src: url("../public/fonts/REM-ExtraBold.woff");
+  font-style: bold;
+  font-weight: 600;
+  font-size: swap;
+}
+
+/* font-family: 'Poppins', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+:root {
+  /* 메인 컬러 */
+  --main-color: #222;
+  /* 서브 컬러 */
+  --sub-color: #d6d6d6;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Pretendard", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
