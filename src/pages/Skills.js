@@ -28,7 +28,7 @@ const Skills = () => {
 
           <li>
             <h3>
-              Java Script<em>(ES6+)</em>
+              JavaScript<em>(ES6+)</em>
             </h3>
             <ul>
               <li>자바스크립트 ES6 기본 문법 이해</li>

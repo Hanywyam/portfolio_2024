@@ -1,5 +1,61 @@
 // skills.scss
 @import "./variable";
+@import "./mixin";
+
+@include mobile {
+  .skills-wrap {
+    .skils-list > li {
+      ul {
+        margin: 30px 0 0 20vw;
+        li {
+          margin: 1rem;
+        }
+      }
+    }
+  }
+}
+@include breakpoint {
+  .skills-wrap {
+    .skils-list > li {
+      ul {
+        margin: 30px 0 0 40vw;
+        li {
+          margin: 1rem;
+        }
+      }
+    }
+  }
+}
+@include desktop {
+  .skills-contn {
+    display: flex;
+    h2 {
+      width: 30%;
+    }
+    .skills-wrap {
+      width: 70%;
+      margin: 30px 0;
+      border-left: 1px solid #222;
+      position: relative;
+      h5 {
+        position: absolute;
+        left: -95px;
+      }
+      .skils-list > li {
+        margin-left: 30px;
+        ul {
+          margin-left: 20vw;
+          li {
+            margin: 1rem;
+          }
+        }
+      }
+      .skils-list :nth-of-type(1) {
+        // border: none;
+      }
+    }
+  }
+}
 
 .skills-contn {
   border-top: 1px solid #222;
@@ -30,29 +86,25 @@
     margin: 30px 0 0;
     h5 {
       text-transform: capitalize;
+      text-align: center;
       display: inline-block;
       background-color: #222;
       color: #fff;
-      padding: 10px 15px;
+      width: 95px;
+      padding: 10px 0;
       font-size: 1rem;
     }
     .skils-list > li {
       border-top: 1px solid #222;
       padding: 20px 0 60px;
       h3 {
-        width: 35%;
+        width: 30%;
         font-size: 1.8rem;
         line-height: 1.2;
         font-weight: 500;
         em {
           font-size: 1rem;
           margin-left: 4px;
-        }
-      }
-      ul {
-        margin: 30px 0 0 20vw;
-        li {
-          margin: 1rem;
         }
       }
     }

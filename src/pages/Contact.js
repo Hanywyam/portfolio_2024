@@ -6,6 +6,8 @@ const Contact = () => {
       <h2>Contact</h2>
       <div className="top-btn">
         <span></span>
+        <span></span>
+        <span></span>
       </div>
 
       <div className="contact-wrap">
@@ -32,7 +34,7 @@ const Contact = () => {
       </div>
 
       <ul className="contact-url">
-        <li>kakaotalk</li>
+        <li>slack</li>
         <li>portfolio</li>
         <li>
           Github

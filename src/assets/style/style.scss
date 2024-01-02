@@ -1,22 +1,48 @@
-$main-font: "pretendard", "맑은 고딕", san-serif;
-$sub-font: "REM", "pretendard", san-serif;
-$main-color: "#222";
-$sub-color: "#d6d6d6";
+@import "./variable";
+@import "./mixin";
 
-:root {
-  // background-color: #ddd;
+@include mobile {
+  body {
+    font-size: 0.875rem;
+    font-weight: 300;
+  }
 }
+
+@mixin breakpoint {
+  body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
+@include desktop {
+  body {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+}
+
 body {
   min-width: 390px;
   margin: 0 auto;
   padding: 0 15px;
   font-family: $main-font;
-  font-size: 0.875rem;
-  font-weight: 300;
   line-height: 1.5;
   word-break: keep-all;
   background-color: #fff;
   box-sizing: border-box;
+}
+:root::-webkit-scrollbar-track {
+  background-color: transparent;
+  margin-top: 90px;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #1a7ef3;
+  border-radius: 10px;
+  border: 3px solid #fff;
+}
+body::-webkit-scrollbar {
+  width: 12px;
 }
 
 ul,

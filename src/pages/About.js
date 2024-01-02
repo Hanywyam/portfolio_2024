@@ -22,11 +22,10 @@ const About = () => {
         <li>WHO I AM</li>
         <li>WHO I AM</li>
       </ul>
-      <div>
-        <h5>DESIGN BETTER THAN ME ABOUT US TO FROM</h5>
+      <div className="about-intro">
         <h5>
-          DESIGN BETTER THAN ME ABOUT US TO FROM FRONTEND SO AOUT USE BUTTERFLY
-          FIREWORK
+          DESIGN BETTER THAN ME ABOUT US TO FROM DESIGN BETTER THAN ME ABOUT US
+          TO FROM FRONTEND SO AOUT USE BUTTERFLY FIREWORK
         </h5>
       </div>
     </div>

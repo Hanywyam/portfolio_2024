@@ -9,9 +9,11 @@ const Project = () => {
 
       <section>
         <div className="proj-wrap">
-          <p>
-            <em>1</em>팀 프로젝트
-          </p>
+          <div className="proj-num">
+            <p>
+              <em>1</em>팀 프로젝트
+            </p>
+          </div>
         </div>
 
         <div className="proj-title">
@@ -35,9 +37,11 @@ const Project = () => {
 
       <section>
         <div className="proj-wrap">
-          <p>
-            <em>2</em>팀 프로젝트
-          </p>
+          <div className="proj-num">
+            <p>
+              <em>2</em>팀 프로젝트
+            </p>
+          </div>
         </div>
 
         <div className="proj-title">
