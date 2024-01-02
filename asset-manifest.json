@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio_2024/static/css/main.cca9b0be.css",
+    "main.js": "/portfolio_2024/static/js/main.3d1690dc.js",
+    "static/media/PretendardVariable.woff2": "/portfolio_2024/static/media/PretendardVariable.154ce88f9118a30d9d0e.woff2",
+    "static/media/REM-ExtraBold.woff": "/portfolio_2024/static/media/REM-ExtraBold.05f22155aaa633e0ecc5.woff",
+    "static/media/REM-Bold.woff": "/portfolio_2024/static/media/REM-Bold.a0f791b8f745ddd1086d.woff",
+    "static/media/REM-Regular.woff": "/portfolio_2024/static/media/REM-Regular.6b1eba23958702e0fc26.woff",
+    "static/media/REM-Light.woff": "/portfolio_2024/static/media/REM-Light.9ddfc25b98dde045bfe1.woff",
+    "static/media/REM-Medium.woff": "/portfolio_2024/static/media/REM-Medium.e0bdec1a78528050f8bb.woff",
+    "static/media/REM-Thin.woff": "/portfolio_2024/static/media/REM-Thin.a8390e7fc393458c33bf.woff",
+    "index.html": "/portfolio_2024/index.html",
+    "main.cca9b0be.css.map": "/portfolio_2024/static/css/main.cca9b0be.css.map",
+    "main.3d1690dc.js.map": "/portfolio_2024/static/js/main.3d1690dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cca9b0be.css",
+    "static/js/main.3d1690dc.js"
+  ]
+}
