@@ -5,7 +5,7 @@ const Skills = () => {
     <div className="skills-contn">
       <h2>
         <em>+</em>
-        skills
+        <div className="sticky">skills</div>
         <em>&</em>
       </h2>
 
