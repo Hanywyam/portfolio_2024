@@ -3,7 +3,7 @@
 
 @include mobile {
   body {
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 300;
   }
 }
@@ -60,6 +60,16 @@ em {
   text-decoration: none;
   list-style: none;
   font-style: normal;
+  color: inherit;
   margin: 0;
   padding: 0;
+}
+
+.move-border {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 1px;
+  background-color: #222;
+  transition: width 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }

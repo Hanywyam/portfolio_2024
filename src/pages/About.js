@@ -1,15 +1,43 @@
+import { useEffect, useState } from "react";
+import Typewriter from "typewriter-effect";
 import "../assets/style/about.scss";
 
 const About = () => {
+  const [scrOpacity, setScrOpacity] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollPosition = window.scrollY;
+      const windowHeight = window.innerHeight;
+      const fullHeight = document.body.scrollHeight;
+
+      const opacity = Math.min(
+        1,
+        scrollPosition / (fullHeight / 5 - windowHeight)
+      );
+      setScrOpacity(opacity);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="about-contn">
+    <div id="1" className="about-contn">
       <h2>안녕하세요.</h2>
       <h2>
         <em>
-          멈추지 않고
-          <br />
-          꾸준히 성장하는
-          <br />
+          <Typewriter
+            options={{
+              strings: ["멈추지 않고", "꾸준히 성장하는"],
+              autoStart: true,
+              loop: true,
+              cursorClassName: "color: #1a7ef3",
+            }}
+          />
         </em>
         한재영입니다.
       </h2>
@@ -22,7 +50,7 @@ const About = () => {
         <li>WHO I AM</li>
         <li>WHO I AM</li>
       </ul>
-      <div className="about-intro">
+      <div className="about-intro" style={{ opacity: scrOpacity }}>
         <h5>
           DESIGN BETTER THAN ME ABOUT US TO FROM DESIGN BETTER THAN ME ABOUT US
           TO FROM FRONTEND SO AOUT USE BUTTERFLY FIREWORK

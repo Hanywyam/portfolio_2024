@@ -8,6 +8,8 @@ import About from "./pages/About";
 import Skills from "./pages/Skills";
 import Project from "./pages/Project";
 import Contact from "./pages/Contact";
+import Border from "./pages/Border";
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [loading, setLoading] = useState(true);

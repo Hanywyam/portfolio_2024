@@ -1,5 +1,6 @@
 // loading.scss
 @import "./variable";
+@import "./mixin";
 
 .loading-cont {
   width: 100%;
@@ -14,10 +15,24 @@
   justify-items: center;
   align-items: center;
   font-family: $sub-font;
-  font-size: 8rem;
   opacity: 1;
   transition: opacity 1s ease-out;
 }
 .loading-cont.fade-out {
   opacity: 0;
+}
+@include mobile {
+  .loading-cont {
+    font-size: 3rem;
+  }
+}
+@include breakpoint {
+  .loading-cont {
+    font-size: 5rem;
+  }
+}
+@include desktop {
+  .loading-cont {
+    font-size: 8rem;
+  }
 }

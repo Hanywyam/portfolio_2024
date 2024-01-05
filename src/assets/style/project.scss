@@ -2,6 +2,16 @@
 @import "./variable";
 @import "./mixin";
 
+.TxtBox {
+  opacity: 1; /* 초기에는 투명하게 설정 */
+  transform: translateY(15px); /* 초기에는 아래로 이동한 상태로 설정 */
+  transition: opacity 1s ease-in-out, transform 0.8s ease-in-out; /* 트랜지션 속성 설정 */
+}
+.loaded .TxtBox {
+  opacity: 0; /* 페이드 인 시 투명도를 1로 변경 */
+  transform: translateY(0); /* 페이드 인 시 이동한 위치를 초기화 */
+}
+
 .proj-contn {
   border-top: 1px solid #222;
   margin-top: 30px;
@@ -36,6 +46,7 @@
       font-size: 1.1rem;
     }
   }
+
   .proj-title {
     h4 {
       width: 70%;
@@ -60,10 +71,19 @@
     }
   }
   .proj-img {
-    width: 100%;
+    width: calc(100% - 30px);
     height: 70vh;
     background-color: #ddd;
+    line-height: 70vh;
     text-align: center;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+    }
   }
 }
 @include mobile {
@@ -138,9 +158,6 @@
       height: 100%;
       margin-bottom: 80px;
       grid-column: 1 /4;
-      img {
-        aspect-ratio: 3 / 4;
-      }
     }
   }
 }

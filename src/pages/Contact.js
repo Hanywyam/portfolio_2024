@@ -1,14 +1,19 @@
+import { Link, animateScroll as scroll } from "react-scroll";
 import "../assets/style/contact.scss";
 
 const Contact = () => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
-    <div className="contact-contn">
+    <div id="4" className="contact-contn">
       <h2>Contact</h2>
-      <div className="top-btn">
+      <Link to="1" onClick={scrollToTop} className="top-btn">
         <span></span>
         <span></span>
         <span></span>
-      </div>
+      </Link>
 
       <div className="contact-wrap">
         <div className="contact-intro">
@@ -37,7 +42,14 @@ const Contact = () => {
         <li>slack</li>
         <li>portfolio</li>
         <li>
-          Github
+          <a
+            href="https://github.com/Hanywyam/HOMEWORK?tab=readme-ov-file#%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EC%A7%80"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Hanywyam 깃허브 페이지">
+            Github
+          </a>
+          <span>개발일지 보러가기</span>
           <em>click!</em>
         </li>
         <li>notion</li>

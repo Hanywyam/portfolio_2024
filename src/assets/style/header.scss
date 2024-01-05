@@ -1,5 +1,6 @@
 // header.scss
 @import "./mixin";
+@import "./variable";
 
 @include mobile {
   header {
@@ -36,6 +37,19 @@
       margin: 0 50px;
       display: flex;
       justify-content: space-between;
+      li {
+        position: relative;
+        &:hover::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 110%;
+          height: 5px;
+          background-color: #1a7ef3;
+        }
+      }
     }
   }
 }
@@ -53,4 +67,7 @@ header {
   top: 0;
   left: 0;
   z-index: 99999;
+  nav {
+    cursor: pointer;
+  }
 }
