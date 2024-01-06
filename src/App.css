@@ -1,7 +1,12 @@
-.margin-15 {
-  margin: 10px;
+.hide {
+  visibility: hidden;
 }
 
-.padding-15 {
-  padding: 10px;
+.move-border {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 1px;
+  background-color: #222;
+  transition: width 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
 }

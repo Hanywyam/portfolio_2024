@@ -3,21 +3,18 @@
 
 @include mobile {
   body {
-    font-size: 1rem;
     font-weight: 300;
   }
 }
 
 @mixin breakpoint {
   body {
-    font-size: 1rem;
     font-weight: 400;
   }
 }
 
 @include desktop {
   body {
-    font-size: 1rem;
     font-weight: 400;
   }
 }
@@ -27,6 +24,7 @@ body {
   margin: 0 auto;
   padding: 0 15px;
   font-family: $main-font;
+  font-size: 1rem;
   line-height: 1.5;
   word-break: keep-all;
   background-color: #fff;
@@ -65,11 +63,4 @@ em {
   padding: 0;
 }
 
-.move-border {
-  margin: 0;
-  padding: 0;
-  width: 100vw;
-  height: 1px;
-  background-color: #222;
-  transition: width 1.3s cubic-bezier(0.165, 0.84, 0.44, 1);
-}
+

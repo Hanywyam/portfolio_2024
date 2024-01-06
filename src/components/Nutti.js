@@ -1,9 +1,8 @@
 import { useState } from "react";
 import "../assets/style/project.scss";
 
-const nutti = () => {
+const Nutti = () => {
   const publicUrl = process.env.PUBLIC_URL;
-
   const [isPlaying, setIsPlaying] = useState(false);
 
   const handleMouseOver = () => {
@@ -52,7 +51,6 @@ const nutti = () => {
               src={publicUrl + "/images/nutti_Screenshot.mp4"}
               type="video/mp4"
             />
-            Your browser does not support the video tag.
           </video>
         </a>
       </div>
@@ -60,4 +58,4 @@ const nutti = () => {
   );
 };
 
-export default nutti;
+export default Nutti;

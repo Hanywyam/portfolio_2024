@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "../assets/style/project.scss";
 
 const NeoWeb = () => {
@@ -28,6 +28,15 @@ const NeoWeb = () => {
   }, []);
 
   const publicUrl = process.env.PUBLIC_URL;
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handleMouseOver = () => {
+    setIsPlaying(true);
+  };
+
+  const handleMouseOut = () => {
+    setIsPlaying(false);
+  };
 
   return (
     <section className={`TxtBox ${isScrolled || loaded ? "loaded" : ""}`}>
@@ -50,7 +59,7 @@ const NeoWeb = () => {
           </li>
           <li>JavaScript</li>
           <li>GSAP</li>
-          <li></li>
+          <li className="hide"></li>
         </ul>
       </div>
 
@@ -60,10 +69,16 @@ const NeoWeb = () => {
           target="_blank"
           rel="noopener noreferrer"
           title="프로젝트2-네오웹 깃허브 페이지">
-          <img
-            src={publicUrl + "/images/neoWeb_Screenshot.gif"}
-            alt="프로젝트 이미지2-네오웹사이트"
-          />
+          <video
+            onMouseOver={handleMouseOver}
+            onMouseOut={handleMouseOut}
+            autoPlay={isPlaying}
+            loop>
+            <source
+              src={publicUrl + "/images/neoWeb_Screenshot.mov"}
+              type="video/mp4"
+            />
+          </video>
         </a>
       </div>
     </section>
