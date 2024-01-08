@@ -1,0 +1,73 @@
+// header.scss
+@import "./mixin";
+@import "./variable";
+
+@include mobile {
+  header {
+    height: 60px;
+    nav {
+      display: none;
+    }
+  }
+}
+
+@include breakpoint {
+  header {
+    height: 80px;
+    h1 {
+      margin: 0 15px;
+    }
+    nav {
+      width: 40%;
+      margin: 0 15px;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+@include desktop {
+  header {
+    width: calc(100% - 60px);
+    h1 {
+      margin: 0 15px;
+    }
+    nav {
+      width: 40%;
+      margin: 0 50px;
+      display: flex;
+      justify-content: space-between;
+      li {
+        position: relative;
+        &:hover::before {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          width: 110%;
+          height: 5px;
+          background-color: #1a7ef3;
+        }
+      }
+    }
+  }
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #222;
+  padding: 15px;
+  box-sizing: border-box;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  nav {
+    cursor: pointer;
+  }
+}

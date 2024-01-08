@@ -1,0 +1,163 @@
+// project.scss
+@import "./variable";
+@import "./mixin";
+
+.TxtBox {
+  opacity: 1; /* 초기에는 투명하게 설정 */
+  transform: translateY(15px); /* 초기에는 아래로 이동한 상태로 설정 */
+  transition: opacity 1s ease-in-out, transform 0.8s ease-in-out; /* 트랜지션 속성 설정 */
+}
+.loaded .TxtBox {
+  opacity: 0; /* 페이드 인 시 투명도를 1로 변경 */
+  transform: translateY(0); /* 페이드 인 시 이동한 위치를 초기화 */
+}
+
+.proj-contn {
+  border-top: 1px solid #222;
+  margin-top: 30px;
+  h2 {
+    em {
+      display: block;
+      text-align: right;
+      font-size: 7rem;
+      line-height: 1.5;
+      color: #d6d6d6;
+      font-family: "Poppins", sans-serif;
+    }
+    padding: 0 0 30px;
+    font-family: $sub-font;
+    font-weight: 300;
+    font-size: 6rem;
+    line-height: 1;
+    text-transform: capitalize;
+  }
+  .proj-wrap {
+    p {
+      em {
+        display: inline-block;
+        font-size: 5rem;
+        line-height: 0.9;
+        color: #d6d6d6;
+        font-family: "Poppins", sans-serif;
+        vertical-align: top;
+        width: 3rem;
+        padding-left: 15px;
+      }
+      font-size: 1.1rem;
+    }
+  }
+
+  .proj-title {
+    h4 {
+      width: 70%;
+      font-size: 1.8rem;
+      line-height: 1.5;
+      font-weight: 500;
+    }
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        width: 22%;
+        height: 55px;
+        font-size: 0.875rem;
+        text-align: center;
+        border: 1px solid #222;
+        display: grid;
+        justify-self: center;
+        align-items: center;
+      }
+    }
+  }
+  .proj-img {
+    width: calc(100% - 30px);
+    height: 70vh;
+    background-color: #ddd;
+    line-height: 70vh;
+    text-align: center;
+    overflow: hidden;
+    img {
+      object-fit: cover;
+      &:hover {
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
+    }
+  }
+}
+@include mobile {
+  .proj-wrap {
+    margin: 30px 0;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+  }
+  .proj-title {
+    padding: 30px 15px;
+  }
+}
+@include breakpoint {
+  .proj-wrap {
+    margin: 30px 0;
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+  }
+  .proj-title {
+    padding: 30px 15px;
+  }
+}
+@include desktop {
+  .proj-contn {
+    padding-top: 300px;
+    position: relative;
+    h2 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 20px 50px 0 0;
+      em {
+        display: inline;
+      }
+    }
+  }
+  section {
+    display: grid;
+    // gap: 30px;
+    grid-template-columns: 30% repeat(2, 1fr);
+    grid-template-rows: 350px;
+    align-items: end;
+    .proj-wrap {
+      padding: 30px 0;
+      // margin-right: 30px;
+      border-bottom: 1px solid #222;
+      grid-column: 1 / 2;
+      width: calc(100% - 30px);
+      .proj-num {
+        width: calc(100% + 30px);
+        border-right: #222 1px solid;
+        height: 320px;
+        position: relative;
+        p {
+          position: absolute;
+          bottom: 0;
+          margin: 0;
+        }
+      }
+    }
+    .proj-title {
+      padding: 30px 30px 30px 0;
+      margin-left: 30px;
+      grid-column: 2 / 5;
+      border-bottom: 1px solid #222;
+      ul {
+        width: 60%;
+      }
+    }
+    .proj-img {
+      margin-top: 30px;
+      height: 100%;
+      margin-bottom: 80px;
+      grid-column: 1 /4;
+    }
+  }
+}
