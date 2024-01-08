@@ -50,13 +50,13 @@ const NeoWeb = () => {
           </li>
           <li>JavaScript</li>
           <li>GSAP</li>
-          <li></li>
+          <li style={{ visibility: "hidden" }}></li>
         </ul>
       </div>
 
       <div className="proj-img">
         <a
-          href="https://github.com/Ah-oh-team-project/make_neoDG"
+          href="https://github.com/Hanywyam/neoDGweb?tab=readme-ov-file#love_letter-team-project--ah-oh"
           target="_blank"
           rel="noopener noreferrer"
           title="프로젝트2-네오웹 깃허브 페이지">

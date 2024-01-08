@@ -29,7 +29,7 @@ const nutti = () => {
       </div>
       <div className="proj-img">
         <a
-          href="https://github.com/Hanywyam/Nutti"
+          href="https://github.com/Hanywyam/Nutti?tab=readme-ov-file#-team-nunettine"
           target="_blank"
           rel="noopener noreferrer"
           title="프로젝트1-누띠 깃허브 페이지">
