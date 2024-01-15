@@ -1,5 +1,7 @@
 # 2024 Frontend Portfolio
 
+<img src="./public/images/main_pg.png">
+
 ## 목표
 
 - 수업에서 배운 것을 최대한 활용하며 작업한다.
