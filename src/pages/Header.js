@@ -9,9 +9,10 @@ const Header = () => {
   return (
     <header>
       <h1>
-        FRONTEND
-        <br />
-        JEYOUNG HAN
+        <Link to="1" spy={true} smooth={true} offset={-75}>
+          <em>FRONTEND</em>
+          JEYOUNG HAN
+        </Link>
       </h1>
       <nav>
         <li>

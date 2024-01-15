@@ -71,13 +71,15 @@
     }
   }
   .proj-img {
-    width: calc(100% - 30px);
+    width: 100%;
     height: 70vh;
     background-color: #ddd;
     line-height: 70vh;
-    text-align: center;
     overflow: hidden;
     img {
+      width: 100%;
+      height: 100%;
+      text-align: center;
       object-fit: cover;
       &:hover {
         transform: scale(1.1);
@@ -94,6 +96,11 @@
   }
   .proj-title {
     padding: 30px 15px;
+  }
+  .proj-img {
+    img {
+      height: 100%;
+    }
   }
 }
 @include breakpoint {
@@ -155,7 +162,6 @@
     }
     .proj-img {
       margin-top: 30px;
-      height: 100%;
       margin-bottom: 80px;
       grid-column: 1 /4;
     }

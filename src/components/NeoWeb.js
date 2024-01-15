@@ -2,39 +2,38 @@ import React, { useEffect, useState } from "react";
 import "../assets/style/project.scss";
 
 const NeoWeb = () => {
-  const [isScrolled, setIsScrolled] = useState(false);
-  const [loaded, setLoaded] = useState(true);
+  // const [isScrolled, setIsScrolled] = useState(false);
+  // const [loaded, setLoaded] = useState(true);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      setIsScrolled(window.scrollY > 0);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     setIsScrolled(window.scrollY > 0);
+  //   };
 
-    // 페이지 로드 시 한 번 실행
-    handleScroll();
+  //   // 페이지 로드 시 한 번 실행
+  //   handleScroll();
 
-    // 스크롤 이벤트 리스너 등록
-    window.addEventListener("scroll", handleScroll);
+  //   // 스크롤 이벤트 리스너 등록
+  //   window.addEventListener("scroll", handleScroll);
 
-    // 컴포넌트 언마운트 시에 이벤트 리스너 제거
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   // 컴포넌트 언마운트 시에 이벤트 리스너 제거
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    // 페이지 로드 시 한 번 실행
-    setLoaded(false);
-  }, []);
+  // useEffect(() => {
+  //   // 페이지 로드 시 한 번 실행
+  //   setLoaded(false);
+  // }, []);
 
   const publicUrl = process.env.PUBLIC_URL;
-
   return (
-    <section className={`TxtBox ${isScrolled || loaded ? "loaded" : ""}`}>
+    <section /* className={`TxtBox ${isScrolled || loaded ? "loaded" : ""}`} */>
       <div className="proj-wrap">
         <div className="proj-num">
           <p>
-            <em>2</em>팀 프로젝트
+            <em>3</em>팀 프로젝트
           </p>
         </div>
       </div>

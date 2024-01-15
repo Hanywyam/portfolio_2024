@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "../assets/style/project.scss";
 import Nutti from "../components/Nutti";
 import NeoWeb from "../components/NeoWeb";
+import ParkingAirport from "../components/ParkingAirport";
 
 const Project = () => {
   const [scrollWidth, setScrollWidth] = useState(100);
@@ -34,6 +35,7 @@ const Project = () => {
         <em>+</em> project
       </h2>
       <Nutti />
+      <ParkingAirport />
       <NeoWeb />
     </div>
   );

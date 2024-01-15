@@ -39,8 +39,24 @@ const Contact = () => {
       </div>
 
       <ul className="contact-url">
-        <li>slack</li>
-        <li>portfolio</li>
+        <li>
+          <a
+            href="https://2024k-digital.slack.com/team/U05QVNYRL0Y"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="U05QVNYRL0Y: slack 프로필 페이지">
+            slack
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/Hanywyam/portfolio_2024?tab=readme-ov-file#2024-frontend-portfolio"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Portfolio 깃허브 페이지">
+            portfolio
+          </a>
+        </li>
         <li>
           <a
             href="https://github.com/Hanywyam/HOMEWORK?tab=readme-ov-file#%EA%B0%9C%EB%B0%9C-%EC%9D%BC%EC%A7%80"
@@ -52,7 +68,15 @@ const Contact = () => {
           <span>개발일지 보러가기</span>
           <em>click!</em>
         </li>
-        <li>notion</li>
+        <li>
+          <a
+            href="https://www.notion.so/Portfolio-4cd992f6a65e4c08bf0865a458872ce5"
+            target="_blank"
+            rel="noopener noreferrer"
+            title="Hanywyam 깃허브 페이지">
+            notion
+          </a>
+        </li>
       </ul>
     </div>
   );

@@ -55,6 +55,7 @@
 }
 
 header {
+  cursor: pointer;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -67,7 +68,7 @@ header {
   top: 0;
   left: 0;
   z-index: 99999;
-  nav {
-    cursor: pointer;
+  em {
+    display: block;
   }
 }

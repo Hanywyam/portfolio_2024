@@ -1,8 +1,8 @@
 import "../assets/style/project.scss";
 
 const nutti = () => {
+  
   const publicUrl = process.env.PUBLIC_URL;
-
   return (
     <section>
       <div className="proj-wrap">
