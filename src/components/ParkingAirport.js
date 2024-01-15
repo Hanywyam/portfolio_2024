@@ -15,11 +15,11 @@ const ParkingAirport = () => {
       <div className="proj-title">
         <h4>Inchen Airport Parking System : 주차 예약 안내</h4>
         <p>
-          Node.js를 이용한 인천공항 장기 주차장 예약 및 실시간 잔여 주차장 안내
+          Next.js를 이용한 인천공항 장기 주차장 예약 및 실시간 잔여 주차장 안내
         </p>
 
         <ul>
-          <li>Node.js</li>
+          <li>Next.js</li>
           <li>API</li>
           <li>MongoDB</li>
           <li>cloudtype</li>

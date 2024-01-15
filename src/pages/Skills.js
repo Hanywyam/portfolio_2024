@@ -95,6 +95,18 @@ const Skills = () => {
               <li>Axios를 이용한 외부 API 및 backend와의 통신</li>
             </ul>
           </li>
+          <li>
+            <h3>Next.js</h3>
+            <ul>
+              <li>Next.js로 풀스택 application 구축</li>
+              <li>SSR, CSR에 대한 이해</li>
+              <li>client/server component에 대한 이해와 활용</li>
+              <li>Next.js App Router</li>
+              <li>useState, onClick, useEffect를 이용한 상태 관리</li>
+              <li>API 구축</li>
+              <li>mongoDB를 이용한 데이터베이스 구축</li>
+            </ul>
+          </li>
         </ul>
 
         <h5>backend</h5>
