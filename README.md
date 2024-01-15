@@ -50,7 +50,7 @@
 <aside>
 💡 새로 작업한 파일을 배포하였는데, 계속 예전 버전으로 보인다. 전체 파일을 지워보고 GitHub 사이트에서 직접 올려도 봤는데 파일 크기 이슈로 올라가지 않았다. 충돌이 나서 해결하다가 다 지워져 버렸다...
 
-❕`npm run build build` 폴더로 빌드 후에 `npm run deploy` 로컬 build폴더를 gh-pages 브랜치로 업로드해야하는데 이걸 놓쳤다..
+❕`npm run build` 폴더로 빌드 후에 `npm run deploy` 로컬 build폴더를 gh-pages 브랜치로 업로드해야하는데 이걸 놓쳤다..
 
 </aside>
 
