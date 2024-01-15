@@ -32,7 +32,7 @@ const ParkingAirport = () => {
           rel="noopener noreferrer"
           title="개인프로젝트1-인천공항 주차장 깃허브 페이지">
           <img
-            src={publicUrl + "/images/parkingAirport_Screenshot.PNG"}
+            src={publicUrl + "/images/parkingAirport_Screenshot.png"}
             alt="프로젝트 이미지1-인천공항주차장"
           />
         </a>
