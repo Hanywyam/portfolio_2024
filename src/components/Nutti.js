@@ -8,7 +8,7 @@ const nutti = () => {
       <div className="proj-wrap">
         <div className="proj-num">
           <p>
-            <em>1</em>팀 프로젝트
+            <em>2</em>팀 프로젝트
           </p>
         </div>
       </div>
@@ -32,10 +32,10 @@ const nutti = () => {
           href="https://github.com/Hanywyam/Nutti?tab=readme-ov-file#-team-nunettine"
           target="_blank"
           rel="noopener noreferrer"
-          title="프로젝트1-누띠 깃허브 페이지">
+          title="프로젝트2-누띠 깃허브 페이지">
           <img
             src={publicUrl + "/images/nutti_Screenshot.gif"}
-            alt="프로젝트 이미지1-누띠"
+            alt="프로젝트 이미지2-누띠"
           />
         </a>
       </div>

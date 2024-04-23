@@ -18,22 +18,28 @@ const Contact = () => {
       <div className="contact-wrap">
         <div className="contact-intro">
           <p>
-            디자이너에서 개발자로
+            디자이너에서 개발자로.
             <br />
-            멈추지 않고 한 번 더 도전하는 한재영입니다.
+            멈추지 않고 새로운 것에 도전하는 한재영입니다.
           </p>
           <p>
-            상상은 다시 현실이 될 수 있도록
+            영리하게 공부하는 것 보다
             <br />
-            조용히, 열심히 노력하는 개발자가 되겠습니다.
+            미련하게 공부하는 걸 좋아합니다.
+            <br />
+            기본부터 충실하며 깊이 있게 고민하는 개발자가 되겠습니다.
           </p>
-          <p>감사합니다.</p>
+          <p>읽어주셔서 감사합니다.</p>
         </div>
 
         <div className="contact-info">
           <ul>
             <li>한재영. Han je young</li>
-            <li>Email. hellow522@naver.com</li>
+            <li>
+              <a href="mailto:hellow522@naver.com">
+                Email. hellow522@naver.com
+              </a>
+            </li>
           </ul>
         </div>
       </div>
@@ -41,11 +47,11 @@ const Contact = () => {
       <ul className="contact-url">
         <li>
           <a
-            href="https://2024k-digital.slack.com/team/U05QVNYRL0Y"
+            href="https://www.notion.so/Portfolio-4cd992f6a65e4c08bf0865a458872ce5"
             target="_blank"
             rel="noopener noreferrer"
-            title="U05QVNYRL0Y: slack 프로필 페이지">
-            slack
+            title="notion 페이지">
+            notion
           </a>
         </li>
         <li>
@@ -70,11 +76,11 @@ const Contact = () => {
         </li>
         <li>
           <a
-            href="https://www.notion.so/Portfolio-4cd992f6a65e4c08bf0865a458872ce5"
+            href="https://docs.google.com/document/d/e/2PACX-1vQ85r-0-bSneatnd_m-g360kyl5PVCALlxaNLyC2bGp0HhpmIhqdB-bdZIQOC6puHQxKeYKzBBPaGah/pub"
             target="_blank"
             rel="noopener noreferrer"
-            title="Hanywyam 깃허브 페이지">
-            notion
+            title="resume: 한재영 이력서 페이지">
+            resume
           </a>
         </li>
       </ul>

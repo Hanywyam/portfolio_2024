@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "../assets/style/project.scss";
 import Nutti from "../components/Nutti";
+import Portfolio from "../components/Portfolio";
 import NeoWeb from "../components/NeoWeb";
 import ParkingAirport from "../components/ParkingAirport";
 
@@ -34,6 +35,7 @@ const Project = () => {
       <h2>
         <em>+</em> project
       </h2>
+      <Portfolio />
       <Nutti />
       <ParkingAirport />
       <NeoWeb />

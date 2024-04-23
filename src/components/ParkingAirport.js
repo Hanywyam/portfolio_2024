@@ -7,7 +7,7 @@ const ParkingAirport = () => {
       <div className="proj-wrap">
         <div className="proj-num">
           <p>
-            <em>2</em>개인 프로젝트
+            <em>3</em>개인 프로젝트
           </p>
         </div>
       </div>
@@ -22,7 +22,7 @@ const ParkingAirport = () => {
           <li>Next.js</li>
           <li>API</li>
           <li>MongoDB</li>
-          <li>cloudtype</li>
+          <li>vercel</li>
         </ul>
       </div>
       <div className="proj-img">
@@ -30,10 +30,11 @@ const ParkingAirport = () => {
           href="https://github.com/Hanywyam/IncheonAirport?tab=readme-ov-file#-incheonairport"
           target="_blank"
           rel="noopener noreferrer"
-          title="개인프로젝트1-인천공항 주차장 깃허브 페이지">
+          title="개인프로젝트3-인천공항 주차장 깃허브 페이지">
           <img
             src={publicUrl + "/images/parkingAirport_Screenshot.png"}
-            alt="프로젝트 이미지1-인천공항주차장"
+            alt="프로젝트 이미지3-인천공항주차장"
+            style={{ width: "100%", height: "auto", display: "block" }}
           />
         </a>
       </div>

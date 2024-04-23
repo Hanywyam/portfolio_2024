@@ -33,14 +33,14 @@ const NeoWeb = () => {
       <div className="proj-wrap">
         <div className="proj-num">
           <p>
-            <em>3</em>팀 프로젝트
+            <em>4</em>팀 프로젝트
           </p>
         </div>
       </div>
 
       <div className="proj-title">
         <h4>NEO Digital Group</h4>
-        <p>웹사이트 리디자인 및 사이트 구현 (반응형 웹사이트 제작)</p>
+        <p>SPA 반응형 웹 사이트 구현</p>
 
         <ul>
           <li>
@@ -58,10 +58,10 @@ const NeoWeb = () => {
           href="https://github.com/Hanywyam/neoDGweb?tab=readme-ov-file#love_letter-team-project--ah-oh"
           target="_blank"
           rel="noopener noreferrer"
-          title="프로젝트2-네오웹 깃허브 페이지">
+          title="프로젝트4-네오웹 깃허브 페이지">
           <img
             src={publicUrl + "/images/neoWeb_Screenshot.gif"}
-            alt="프로젝트 이미지2-네오웹사이트"
+            alt="프로젝트 이미지4-네오웹사이트"
           />
         </a>
       </div>

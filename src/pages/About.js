@@ -52,8 +52,8 @@ const About = () => {
       </ul>
       <div className="about-intro" style={{ opacity: scrOpacity }}>
         <h5>
-          DESIGN BETTER THAN ME ABOUT US TO FROM DESIGN BETTER THAN ME ABOUT US
-          TO FROM FRONTEND SO AOUT USE BUTTERFLY FIREWORK
+          Hello. I'm Je-young Han, a front-end developer. I have a perseverance
+          that isn't afraid of new experiences and failures.
         </h5>
       </div>
     </div>
