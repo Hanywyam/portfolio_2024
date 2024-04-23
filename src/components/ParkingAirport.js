@@ -34,7 +34,6 @@ const ParkingAirport = () => {
           <img
             src={publicUrl + "/images/parkingAirport_Screenshot.png"}
             alt="프로젝트 이미지3-인천공항주차장"
-            style={{ width: "100%", height: "auto", display: "block" }}
           />
         </a>
       </div>

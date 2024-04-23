@@ -15,7 +15,7 @@ const nutti = () => {
       <div className="proj-title">
         <h4>Portfolio</h4>
         <p>
-          React를 활용하여 PC와 모바일에 반응하는 포트폴리오 사이트 디자인 및
+          React를 활용하여 PC, Tablet, 모바일에 반응하는 포트폴리오 사이트 디자인 및
           구현
         </p>
 
