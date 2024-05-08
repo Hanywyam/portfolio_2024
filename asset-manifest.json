@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_2024/static/css/main.1817f99c.css",
-    "main.js": "/portfolio_2024/static/js/main.9616ce4d.js",
+    "main.js": "/portfolio_2024/static/js/main.f74d66c6.js",
     "static/media/PretendardVariable.woff2": "/portfolio_2024/static/media/PretendardVariable.154ce88f9118a30d9d0e.woff2",
     "static/media/REM-ExtraBold.woff": "/portfolio_2024/static/media/REM-ExtraBold.05f22155aaa633e0ecc5.woff",
     "static/media/REM-Bold.woff": "/portfolio_2024/static/media/REM-Bold.a0f791b8f745ddd1086d.woff",
@@ -11,10 +11,10 @@
     "static/media/REM-Thin.woff": "/portfolio_2024/static/media/REM-Thin.a8390e7fc393458c33bf.woff",
     "index.html": "/portfolio_2024/index.html",
     "main.1817f99c.css.map": "/portfolio_2024/static/css/main.1817f99c.css.map",
-    "main.9616ce4d.js.map": "/portfolio_2024/static/js/main.9616ce4d.js.map"
+    "main.f74d66c6.js.map": "/portfolio_2024/static/js/main.f74d66c6.js.map"
   },
   "entrypoints": [
     "static/css/main.1817f99c.css",
-    "static/js/main.9616ce4d.js"
+    "static/js/main.f74d66c6.js"
   ]
 }
